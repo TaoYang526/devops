@@ -13,5 +13,5 @@ RUN chmod +x ./kubectl && mv ./kubectl /usr/local/bin/kubectl
 RUN wget https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_Linux_amd64.tar.gz -O - | tar xz -C /tmp
 RUN mv /tmp/eksctl /usr/local/bin
 # install calicoctl
-RUN wget https://github.com/projectcalico/calicoctl/releases/download/v3.20.0/calicoctl
-RUN chmod +x ./calicoctl && mv ./calicoctl /usr/local/bin/
+#RUN wget https://github.com/projectcalico/calicoctl/releases/download/v3.20.0/calicoctl
+#RUN chmod +x ./calicoctl && mv ./calicoctl /usr/local/bin/

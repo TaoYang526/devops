@@ -1,0 +1,6 @@
+REGION=us-west-1
+CLUSTER_ID=first-eks
+VPC_STACK_NAME=${CLUSTER_ID}-vpc-stack
+ROLE_NAME=${CLUSTER_ID}-role
+NODE_ROLE_NAME=${CLUSTER_ID}-node-role
+NODE_GROUP_ID=${CLUSTER_ID}-node-group

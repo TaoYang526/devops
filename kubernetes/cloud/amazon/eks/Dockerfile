@@ -12,3 +12,6 @@ RUN chmod +x ./kubectl && mv ./kubectl /usr/local/bin/kubectl
 # install eksctl
 RUN wget https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_Linux_amd64.tar.gz -O - | tar xz -C /tmp
 RUN mv /tmp/eksctl /usr/local/bin
+# install helm
+RUN wget https://get.helm.sh/helm-v3.10.2-linux-amd64.tar.gz -O - | tar -xz -C /tmp
+RUN mv /tmp/linux-amd64/helm /usr/local/bin
